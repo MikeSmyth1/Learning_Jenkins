@@ -1,1 +1,16 @@
+385  git clone https://github.com/MikeSmyth1/Learning_Jenkins.git
+386  cd Learning_Jenkins/
+387  git branch
+388  ls -l
+389  git fetch origin
+390  git branch -a
+391  git branch
+392  git branch -a
+393  git checkout remotes/origin/01_02
+
+git add .
+git commit -m "Added a new file"
+git push origin 01_02
+
+
 // Command to run a Jenkins job for 30 secondstimeout /t 30
